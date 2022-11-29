@@ -25,6 +25,7 @@ function App() {
       <BrowserRouter>
       
         <Navbar firstvalue={firstvalue} clicktosubmit={clicktosubmit} setfirstvalue={(v)=>setvalue(v)}  />
+        
         <Routes>
           <Route path="/Home" element={<Home firstvalue={submitvalue}/>} />
           <Route path="/Blog" element={<Blog />} />
