@@ -1,4 +1,3 @@
-
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
@@ -8,7 +7,7 @@ import Aboutus from "./components/Aboutus";
 import Contactus from "./components/Contactus";
 import { useState } from "react";
 import Footer from './components/Footer';
-;
+
 
 function App() {
   const [firstvalue, setvalue] = useState('');

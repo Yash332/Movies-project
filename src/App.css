@@ -15,9 +15,7 @@
 	animation-timing-function: linear ;
 }
 .movie-card{
- 
 	margin: 5px 0px;
-
 }
 
 
@@ -30,18 +28,16 @@
   border-radius: 30px;
   margin-left: 10px;
   text-align: center;
- 
 }
 
  a:hover{
   background-color:Lavender;
   color: whitesmoke;
-  
 }
+
 a,a:focus{
   text-decoration: none;
   color: #282c34;
-  
 }
 a.active{
   text-decoration: underline;

@@ -3,15 +3,10 @@ import "./App.css";
 
 import Button from '@mui/material/Button';
 
-
-
 const Api = (props) => {
   const [loader, setloader] = useState(true);
   const [apidata, setapiData] = useState([]);
   const [btnData,setbtnData]=useState(false)
-  
-  
-  
 
   const getapiData = async () => {
     const response = await fetch(
